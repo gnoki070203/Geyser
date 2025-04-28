@@ -14,9 +14,9 @@
 bedrock:
   # The IP address that will listen for connections.
   # Generally, you should only uncomment and change this if you want to limit what IPs can connect to your server.
-  #address: 0.0.0.0
+  #address: 62.210.234.73
   # The port that will listen for connections
-  port: 19132
+  port: 40414
   # Some hosting services change your Java port everytime you start the server and require the same port to be used for Bedrock.
   # This option makes the Bedrock port the same as the Java port every time you start the server.
   # This option is for the plugin version only.
@@ -46,14 +46,14 @@ remote:
   # If it is "auto", for standalone version the remote address will be set to 127.0.0.1,
   # for plugin versions, it is recommended to keep this as "auto" so Geyser will automatically configure address, port, and auth-type.
   # Leave as "auto" if floodgate is installed.
-  address: auto
+  address: 62.210.234.73
   # The port of the remote (Java Edition) server
   # For plugin versions, if address has been set to "auto", the port will also follow the server's listening port.
-  port: 25565
+  port: 10004
   # Authentication type. Can be offline, online, or floodgate (see https://github.com/GeyserMC/Geyser/wiki/Floodgate).
   # For plugin versions, it's recommended to keep the `address` field to "auto" so Floodgate support is automatically configured.
   # If Floodgate is installed and `address:` is set to "auto", then "auth-type: floodgate" will automatically be used.
-  auth-type: online
+  auth-type: floodgate
   # Whether to enable PROXY protocol or not while connecting to the server.
   # This is useful only when:
   # 1) Your server supports PROXY protocol (it probably doesn't)
